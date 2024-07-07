@@ -1,0 +1,33 @@
+.skills {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background: url('../black-rose.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 10% 0;
+    height: 100vh;
+}
+
+.skills-text h2 {
+    font-size: 60px;
+}
+
+.skills-text h2 span {
+    color: #0ef;
+}
+
+.skills-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.skills-list {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    list-style: none;
+}

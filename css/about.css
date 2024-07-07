@@ -1,0 +1,50 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../black-rose.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 70px 5%;  /* Reduced padding to make more room */
+    height: 100vh;
+    color: #ededed;
+}
+
+.about-text {
+    width: 90%;  /* Make use of 90% of the width */
+    max-width: 1200px;  /* Add a max-width for larger screens */
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-text h2 span {
+    color: #0ef;
+}
+
+.about-text p {
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;  /* Increased margin for better separation */
+}
+
+.about-text .btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    transition: box-shadow 0.3s ease;
+}
+
+.about-text .btn-box:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}

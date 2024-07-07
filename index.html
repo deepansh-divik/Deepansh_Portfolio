@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepansh's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/certifications.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active" onclick="loadSection('home')">Home</a>
+            <a href="#about" style="--i:2" onclick="loadSection('about')">About</a>
+            <a href="#skills" style="--i:3" onclick="loadSection('skills')">Skills</a>
+            <a href="#certifications" style="--i:4" onclick="loadSection('certifications')">Certifications</a>
+            <a href="#projects" style="--i:5" onclick="loadSection('projects')">Projects</a>
+        </nav>
+    </header>
+
+    <main id="main-content"></main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
